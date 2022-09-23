@@ -12,7 +12,7 @@ resource "aws_instance" "myawsserver" {
     env = upper (var.env)
     owner = upper ("Techlanderss")
     dept = "Eng"
-    client = "vodafoneee"
+    client = "vodafone"
   }
 }
 
